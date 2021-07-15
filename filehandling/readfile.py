@@ -21,7 +21,7 @@ line_count()
 
 #Program 3
 def occurrence():
-    file = open(r"E:\VIT\python\Lab assigment\assigment\MyCountry.txt","r")
+    file = open("demo.txt","r")
     a= file.read().count("the")
     print('\noccurrence of the word "the"=',a)
     file.close()
@@ -29,7 +29,7 @@ occurrence()
 
 #Program 4
 def write():
-    file= open(r"E:\VIT\python\Lab assigment\assigment\MyCountry.txt","a")
+    file= open("demo.txt","a")
     a = input("\nEnter : ")
     file.write(a)
     file= open(r"E:\VIT\python\Lab assigment\assigment\MyCountry.txt","r")
